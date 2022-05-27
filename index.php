@@ -4,47 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP&Mysql Database connection</title>
+    <title>Document</title>
     <style>
-        div.row > div{border:1px solid black; margin-top:1em; margin-bottom:1em;}
+        .control{width:350px !important; }
+        .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px; padding:1rem 2rem; font-size:18px;}
+        .submit-btn:hover{background:#fff; color:#000;}
+        .form-floating input{padding-top:0px;}
+      
+        .form-floating > label{
+            padding:0.3rem .75rem !important;
+            font-size:12px;
+        }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <div class="header">
-        <h1>Bootstrap Basics</h1>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">Block1 </div>
-        <div class="col-md-6">Block2 </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-3 col-md-offset-1">Block 1</div>
-        <div class="col-sm-3 col-md-offset-1">Block 2</div>
-        <div class="col-sm-3 col-md-offset-1">Block 3</div>
-    </div>
-
-    <div class="row">
-        <div class="col col-md-4">Block 1</div>
-        <div class="col col-md-4">Block 2</div>
-        <div class="col col-md-4">Block 3</div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4">
-            <h1 class="text-center">Central block</h1>
+    
+<section id="form">
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-5">
+        <img src="./utils/img/login.jpg" alt="Login image" class="img-fluid"/>
+            </div>
+            <div class="col-lg-4 align-self-center">
+                <h2>Logo</h2>
+                <h3>Sign into your account.</h3>
+                <div class="form">
+                        <div class="control form-floating mt-3 mb-3">
+                            <label for="" class="form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="control form-floating mt-3 mb-3">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="control mt-3 mb-3 text-center">
+                            <button type="submit" class="submit-btn">Login</button>
+                        </div>
+                        <div class="control">
+                            <a href="./forgetPassword.php" class="link">Forgot password?</a><br/>
+                            <span>Don't have account yet?</span><a href="./register.php" class="link">Register here</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6 text-center">
+                <h4>Copyrights reserved @ funtechstic.com</h4>
+            </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2"><h2 class="text-center">Central block</h2></div>   
-    </div>
-</div>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" defer></script>
+<?php 
+    include('./header.php');
+?>
 </body>
 </html>
