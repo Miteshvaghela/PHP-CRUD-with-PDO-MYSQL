@@ -62,7 +62,7 @@
 
                     <div class="control mt-3 mb-3 text-center">
                     <button type="submit" class="submit-btn">Register</button>
-                        <a href="./login.php" class="link">Back</a>
+                        <a href="./index.php" class="link">Back</a>
                     </div>
             </div>
         </div>
