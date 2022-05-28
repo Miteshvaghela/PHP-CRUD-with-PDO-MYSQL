@@ -15,6 +15,7 @@
             padding:0.3rem .75rem !important;
             font-size:12px;
         }
+        body{box-sizing:border-box;margin:0px; padding:0px;}
     </style>
 </head>
 <body>
