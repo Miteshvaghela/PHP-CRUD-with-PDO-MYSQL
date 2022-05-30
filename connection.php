@@ -1,6 +1,7 @@
 <?php 
 // database connection with pdo drivers 
 
+// Phase 1
 
 $host = 'localhost';
 $username = 'root';
