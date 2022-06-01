@@ -5,15 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registeration page</title>
-    <style>
-        .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px;padding:1rem 2rem; font-size:18px;}
-        .submit-btn:hover{background:#fff; color:#000;}
- 
-        .form-floating > label{
-            padding:0.3rem .75rem !important;
-            font-size:12px;
-        }
-    </style>
+    
 </head>
 <body>
 

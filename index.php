@@ -5,18 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .control{width:350px !important; }
-        .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px; padding:1rem 2rem; font-size:18px;}
-        .submit-btn:hover{background:#fff; color:#000;}
-        .form-floating input{padding-top:0px;}
-      
-        .form-floating > label{
-            padding:0.3rem .75rem !important;
-            font-size:12px;
-        }
-        body{box-sizing:border-box;margin:0px; padding:0px;}
-    </style>
+    
 </head>
 <body>
     
@@ -27,7 +16,7 @@
         <img src="./utils/img/login.jpg" alt="Login image" class="img-fluid"/>
             </div>
             <div class="col-lg-4 align-self-center">
-                <h2>Logo</h2>
+                <h2>Webian login</h2>
                 <h3>Sign into your account.</h3>
                 <div class="form">
                         <div class="control form-floating mt-3 mb-3">
