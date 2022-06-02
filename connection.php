@@ -4,10 +4,11 @@
 // Phase 1
 
 $host = 'localhost';
-$username = 'root';
-$password = '';
-$db_name = 'testpdo';
-$server = 'mysql:host=localhost;dbname='.$host.';dbname='.$db_name;
+
+$username = 'root'; // username 
+$password = ''; // password
+$db_name = 'testpdo'; // database name
+$server = 'mysql:host=localhost;dbname='.$host.';dbname='.$db_name; // server name
 
 try{
     $con = new PDO($server, $username, $password);    
