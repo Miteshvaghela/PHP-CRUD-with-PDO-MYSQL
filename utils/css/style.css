@@ -1,4 +1,5 @@
-
+body{box-sizing:border-box;margin:0px; padding:0px; background:#000; color:#fff;}
+body *{color:#fff;}
 .control{width:350px !important; }
 .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px; padding:1rem 2rem; font-size:18px;}
 .submit-btn:hover{background:#fff; color:#000;}
@@ -8,20 +9,20 @@
     padding:0.3rem .75rem !important;
     font-size:12px;
 }
-body{box-sizing:border-box;margin:0px; padding:0px;}
+
 
 .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px;padding:1rem 2rem; font-size:18px;}
-        .submit-btn:hover{background:#fff; color:#000;}
- 
-        .form-floating > label{
-            padding:0.3rem .75rem !important;
-            font-size:12px;
-        }
+.submit-btn:hover{background:#fff; color:#000;}
 
-        .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px;padding:1rem 2rem; font-size:18px;}
-        .submit-btn:hover{background:#fff; color:#000;}
- 
-        .form-floating > label{
-            padding:0.3rem .75rem !important;
-            font-size:12px;
-        }
+.form-floating > label{
+    padding:0.3rem .75rem !important;
+    font-size:12px;
+}
+
+.submit-btn{border-radius:0px; background:#000; color:#fff; width:350px;padding:1rem 2rem; font-size:18px;}
+.submit-btn:hover{background:#fff; color:#000;}
+
+.form-floating > label{
+    padding:0.3rem .75rem !important;
+    font-size:12px;
+}
