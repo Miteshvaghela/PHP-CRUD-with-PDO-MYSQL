@@ -1,5 +1,5 @@
-body{box-sizing:border-box;margin:0px; padding:0px; background:#000; color:#fff;}
-body *{color:#fff;}
+body{box-sizing:border-box;margin:0px; padding:0px; }
+
 .control{width:350px !important; }
 .submit-btn{border-radius:0px; background:#000; color:#fff; width:350px; padding:1rem 2rem; font-size:18px;}
 .submit-btn:hover{background:#fff; color:#000;}
