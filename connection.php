@@ -1,21 +1,17 @@
 <?php 
-// database connection with pdo drivers 
 
-// Phase 1
-
-$host = 'localhost';
-
-$username = 'root'; // username 
-$password = ''; // password
-$db_name = 'testpdo'; // database name
-$server = 'mysql:host=localhost;dbname='.$host.';dbname='.$db_name; // server name
+$config_host       = 'localhost';
+$config_username   = 'root'; // username 
+$config_password   = ''; // password
+$config_db_name    = 'chillbox_db'; // database name
+$connection    = 'mysql:host=localhost;dbname='.$config_host.';dbname='.$config_db_name; // server name
 
 try{
-    $con = new PDO($server, $username, $password);    
+    $con = new PDO($connection, $config_username, $config_password);    
 
-    echo 'Database connection : <pre>'; print_R($con);
+    echo 'Database connection established <pre>'; print_R($con);
 
 }catch(PDOException $e){
-    echo 'Database connection could not connect. => '.$e-getMessage();
+    echo 'Database connection could not connect. => '.$e->getMessage();
 }
 ?>
